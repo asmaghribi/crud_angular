@@ -1,0 +1,20 @@
+<div class="contenu">
+    <h4>Affecter un Professeur</h4>
+    <mat-form-field appearance="fill">
+      <mat-label>Selectionner un member:</mat-label>
+      <mat-select [(ngModel)]="selectedValue" >
+        <mat-option *ngFor="let element of tabStudent" [value]="element.id">
+          {{element.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <p> Selected student: {{selectedValue}} </p>
+
+    <div class="example-button-row">
+        <button mat-fab extended color="primary" (click)="Add(selectedValue)">
+            <mat-icon>verified_user</mat-icon>
+          OK
+        </button>
+        </div>
+      </div>
+      

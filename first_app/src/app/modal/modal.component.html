@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>{{ description }}</h2>
+
+<mat-dialog-content [formGroup]="form">
+  <mat-form-field>
+    <input matInput placeholder="id_event" formControlName="id" />
+    <input matInput placeholder="titre" formControlName="titre" />
+    <input matInput placeholder="date_debut" formControlName="date_deb" />
+    <input matInput placeholder="date_fin" formControlName="date_fin" />
+
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button class="mat-raised-button" (click)="close()">Close</button>
+  <button class="mat-raised-button mat-primary" (click)="save()">Save</button>
+</mat-dialog-actions>

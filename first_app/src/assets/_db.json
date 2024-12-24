@@ -1,0 +1,95 @@
+{
+  "students":[
+  {
+      "id":"1254",
+      "cin":"000000",
+      "name":"mariam",
+      "Datenaissance":"12/20/99",
+      "classe":"Glid1",
+      "filiere":"genie informatique"
+  },
+  {
+      "id":"1354",
+      "cin":"12340705688",
+      "name":"asma",
+      "Datenaissance":"12/20/99",
+      "classe":"LSG",
+      "filiere":"Genie industrielle"
+  },
+  {
+      "id":"1454",
+      "cin":"12345698",
+      "name":"yesmine",
+      "Datenaissance":"12/20/99",
+      "classe":"Gli",
+      "filiere":"Genie electrique"}
+  ],
+  "subjects":[
+      {
+          "id":"112233",
+          "title":"probabilité",
+          "type":"mathtémaique",
+          "datedebut":"12/12/2015",
+          "sourcePdf":"lien",
+          "professeur":"yesmine"
+      },
+      {
+          "id":"112234",
+          "title":"Gestion de l'entreprise",
+          "type":"Gestion",
+          "datedebut":"12/12/2016",
+          "sourcePdf":"lien",
+          "professeur":"nouuuur"
+      },
+      {
+          "id":"112235",
+          "title":"IHM",
+          "type":"informatique",
+          "datedebut":"12/12/2014",
+          "sourcePdf":"lien",
+          "professeur":"mariam"}
+      ],
+   "Event":[
+          {
+              "id":"112233",
+              "titre":"Women Day",
+              "date_deb":"12/87/933",
+              "date_fin":"97/99/1005"
+          },
+          {
+              "id":"112234",
+              "titre":"Journée Club",
+              "date_deb":"12/87/933",
+              "date_fin":"97/99/1000"
+          },
+          {
+              "id":"112235",
+              "titre":"journée national",
+              "date_deb":"12/87/933",
+              "date_fin":"97/99/1055"
+          }
+          ],
+
+  "tools":[
+
+          {
+                 "id":"00000",
+                "name":"prototype",
+                "date":"99999",
+                "source":"lien"
+          },
+          {
+              "id":"111111",
+             "name":"settingss",
+             "date":"99999",
+             "source":"lien"
+       },
+        {
+          "id":"66666666",
+         "name":"hiii",
+         "date":"99999",
+         "source":"lien"
+        }
+
+  ]
+}
